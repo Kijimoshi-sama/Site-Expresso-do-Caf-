@@ -1,0 +1,104 @@
+/*Esse link é para exportação da fonte em css. Não consegui fazer funcionar também, mas se precisar ele está aqui.*/
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+      background-image: url("../img/Fundo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      margin: 0;
+      padding: 0;
+      font-family: "Volkorn", sans-serif;
+    }
+    
+    header {
+      display: block;
+      margin-bottom: 1px;
+      height: 120px;
+      text-align: right;
+      padding: 10px;
+      font-size: 14px;
+    }
+    
+    address {
+      float: right;
+      white-space: pre-line;
+      color: #FFEEBB;
+      font-family: "Volkorn", sans-serif;
+    }
+
+    nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 200px;
+      height: 750px;
+      padding: 20px;
+      font-size: 16px;
+      padding: 20px;
+      font-size: 16px;
+
+      
+    }
+    
+    nav a {
+      display: block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: #FFEEBB;
+    }
+
+    section {
+      float: right;
+      clear: right;
+      width: 80%;
+    }
+
+    section p {
+      color: #FFEEBB;
+    }
+
+    footer {
+      color: #FFEEBB;
+      text-align: center;
+      font-size: 16px;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+      text-align: center;
+  }
+
+  /*Aqui é a parte do código da página Index.*/
+
+  .logo_small {
+      float: left;
+      padding: 10px;
+    }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .logo {
+      width: 50%;
+      float: right;  
+      padding: 20px;
+  }
+  /*Aqui é a parte do código da página História.*/
+
+  .imgdir {
+    float: right;
+    padding: 12px;
+  }
+
+  .imgesq {
+    float: left;
+    padding: 12px;
+  }
+
+  .text1 {
+   
+   }
